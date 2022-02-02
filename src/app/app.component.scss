@@ -1,0 +1,24 @@
+:host {
+  display:  flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100%;
+  position: relative;
+}
+  
+
+background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background-image: url('../assets/slanted-gradient.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -100;
+}
+
+
